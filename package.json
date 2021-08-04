@@ -1,0 +1,30 @@
+{
+  "name": "postscript2pdf",
+  "version": "1.0.0",
+  "description": "Servicio para convertir archivos postscript en PDF",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "babel-node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:Billing-and-Invoicing-SSA/postscript2pdf.git"
+  },
+  "keywords": [
+    "ps",
+    "pdf"
+  ],
+  "author": "andreole@ar.ibm.com",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.9",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ghostscript4js": "^3.2.1",
+    "nodemailer": "^6.6.3"
+  },
+  "devDependencies": {}
+}
