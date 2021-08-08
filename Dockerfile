@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi8/ubi
+FROM ubi8/ubi:latest
 #
 ENV  PORT=3004
 ENV  GS4JS_HOME="/usr/lib64"
